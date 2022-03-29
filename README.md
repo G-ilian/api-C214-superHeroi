@@ -35,12 +35,17 @@ git clone https://github.com/G-ilian/api-C214-superHeroi
 - Outra chave do sucesso para executar o código com eficiência é mudar a url padrão do código para a url do banco de dados que você utilizará, ISTO É CRUCIAL PARA O FUNCIONAMENTO DA API. Para dada as estruturas de pastas do projeto. Procure pelo arquivo database.js, que se encontrará na pasta infrastructure, abaixo encontra um esquema que facilitará a busca:
 
     📂Aula 06 - api
+
         📂src
+
             📁application
+
             📂infrastructure
+
                 📄database.js
                 📄rest_server.js
             📁port
+            
             📁utils
 - 1º Passo
 
