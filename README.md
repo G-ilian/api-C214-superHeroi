@@ -46,7 +46,7 @@ cd "Aula 06 - api"
 
 📎 Instalando as dependências 
 
-Posteriormente a isto através do terminal, digite:
+Posteriormente a isto,estando no terminal e na pasta de raiz do projeto, digite:
 
 ```
 npm install
@@ -61,3 +61,57 @@ npm start
 ```
 
 - 🌐 Endpoints 
+<p>Para realizar todas as operações utilizarmos de operações que criamos, será necessário usar dos chamados endpoints, que são rotas que levarão a aquela operação que desejamos fazer.</p>
+<p>Ao executarmos o comando anteriormente apresentado será nos gerado o seguinte uma url de servidor, mostra a seguir: </p>
+
+```
+http://localhost:5000
+```
+
+Obs: Por padrão foi configurado a porta 5000, caso haja algum conflito de rota dentro de seu computador, entre no arquivo server.js e altere o valor atribuído a porta.
+
+<p>Esta rota pode ser utilizada dentro do Postman ou de outro cliente HTTP, sugiro utilizar no postman</p>
+
+Para acessar os endpoints a rota padrão configurarada foi /heroes, logo sempre que quiser usar algum dos endpoints terá antes de colocar /heroes
+
+- ⛓️ Endpoint Create
+Para acessar o endpoint que permite a criação dos heróis, digite :
+```
+http://localhost:5000/heroes/create
+```
+Lembrando que este será um metódo do tipo POST, ou seja, permitirá a você adicionar arquivos no banco de dados.
+
+- ⛓️ Endpoint Read
+Para acessar o endpoint que permite a listagem de todos os heróis contidos no banco de dados, digite :
+```
+http://localhost:5000/heroes/list
+
+```
+<p>Lembrando que este será um metódo do tipo GET, ou seja, permitirá a você ver todos os heróis listados no banco.</P>
+<p>Tratando dos endpoint para listagem ainda existem duas opções, listar por equipe e listar por poder, pode ser feito respectivamente as listagem através de:</p>
+
+- Por equipe 
+
+```
+http://localhost:5000/heroes/listByTeam
+
+```
+- Por poder 
+```
+http://localhost:5000/heroes/listByPower
+
+```
+
+- ⛓️ Endpoint Update
+Para acessar o endpoint que permite a atualização dos heróis, digite :
+```
+http://localhost:5000/heroes/update
+```
+Lembrando que este será um metódo do tipo PUT, ou seja, permitirá a você atualizar arquivos no banco de dados. O dado escolhido para ser atualizado é o nome do herói, para identifica-lo será necessário portanto passar a equipe a qual ele pertence e o nome que você deseja muda-lo.
+
+- ⛓️ Endpoint Delete
+Para acessar o endpoint que permite a atualização dos heróis, digite :
+```
+http://localhost:5000/heroes/delete
+```
+Lembrando que este será um metódo do tipo DELETE, ou seja, permitirá a você deletar arquivos no banco de dados. O herói escolhido para ser deletado do banco de dados é identificado através de seu nome, então é necessário passar o nome para execução do comando.
