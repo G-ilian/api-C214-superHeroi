@@ -24,8 +24,14 @@ module.exports = (app) => {
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
-    app.patch(`${route}/listUser`, async (req, res) => {
-        const response = await Heroes.listByEmail(req.body);
+    app.patch(`${route}/listByTeam`, async (req, res) => {
+        const response = await Heroes.listByTeam(req.body);
+        res.status(Utils.responseStatus(response.name));
+        res.json(response);
+    });
+
+    app.patch(`${route}/listByPower`, async (req, res) => {
+        const response = await Heroes.listByPower(req.body);
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
