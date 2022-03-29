@@ -115,3 +115,7 @@ Para acessar o endpoint que permite a atualização dos heróis, digite :
 http://localhost:5000/heroes/delete
 ```
 Lembrando que este será um metódo do tipo DELETE, ou seja, permitirá a você deletar arquivos no banco de dados. O herói escolhido para ser deletado do banco de dados é identificado através de seu nome, então é necessário passar o nome para execução do comando.
+
+## ✒️ Autor
+
+***Gabriel Ilian Fonseca Barboza*** - [Gabriel](https://github.com/G-ilian)
