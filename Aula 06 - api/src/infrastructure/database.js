@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = `mongodb+srv://<root>:root@cluster0.vilim.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `sua_url_de_database`;
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
