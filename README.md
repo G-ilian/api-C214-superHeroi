@@ -31,18 +31,7 @@ git clone https://github.com/G-ilian/api-C214-superHeroi
 <p>Após ter clonado o projeto em seu computador, acesse uma IDE de sua opção, desde que esta tenha suporte para a linguagem JavaScript, e abra a pasta onde você clonou o repositório, dentro dessa IDE abra o terminal e execute os seguintes passos: </p>
 
 - Para executar o projeto é de suma importância estar na pasta de raiz do mesmo, caso você tenha aberto o projeto na pasta de raiz "Aula 06 - api", desconsidere este passo. Agora se você não estiver na pasta de raiz execute o seguinte comando no terminal: 
-
-<p>Outra chave do sucesso para executar o código com eficiência é mudar a url padrão do código para a url do banco de dados que você utilizará, ISTO É CRUCIAL PARA O FUNCIONAMENTO DA API. Para dada as estruturas de pastas do projeto. Procure pelo arquivo database.js, que se encontrará na pasta infrastructure, abaixo encontra um esquema que facilitará a busca:</p>
-
-    📂Aula 06 - api
-        📂src
-            📁application
-            📂infrastructure
-                📄database.js
-                📄rest_server.js
-            📁port
-            📁utils
-            
+    
 - 1º Passo
 
 ```
@@ -55,6 +44,17 @@ cd "api-C214-superHeroi"
 cd "Aula 06 - api"
 ```
 
+<p>Outra chave do sucesso para executar o código com eficiência é mudar a url padrão do código para a url do banco de dados que você utilizará, ISTO É CRUCIAL PARA O FUNCIONAMENTO DA API. Para dada as estruturas de pastas do projeto. Procure pelo arquivo database.js, que se encontrará na pasta infrastructure, abaixo encontra um esquema que facilitará a busca:</p>
+
+    📂Aula 06 - api
+        📂src
+            📁application
+            📂infrastructure
+                📄database.js
+                📄rest_server.js
+            📁port
+            📁utils
+        
 📎 Instalando as dependências 
 
 Posteriormente a isto,estando no terminal e na pasta de raiz do projeto, digite:
